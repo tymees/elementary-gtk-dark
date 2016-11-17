@@ -401,9 +401,11 @@ entry.flat,
 .entry.flat {
     border-width: 0 0 1px;
     border-radius: 0;
-    background-color: @base_color;
+    background-color: transparent;
     background-image: none;
     box-shadow: none;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /*******************
