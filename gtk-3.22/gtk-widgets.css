@@ -3855,7 +3855,8 @@ dialog label.primary {
 * Text Styles *
 **************/
 
-.dim-label {
+.dim-label,
+.greyed_label {
     opacity: 0.75;
 }
 
