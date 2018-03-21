@@ -76,6 +76,7 @@ grid:disabled {
 
 tooltip,
 tooltip.background,
+.floating-bar,
 .overlay-bar {
     background-color: alpha (#222, 0.9);
     border-radius: 3px;
@@ -89,8 +90,13 @@ tooltip.background,
     text-shadow: 0 1px 2px alpha (#000, 0.6);
 }
 
+.floating-bar,
 .overlay-bar {
     margin: 3px;
+}
+
+.floating-bar {
+    padding: 0;
 }
 
 tooltip label,
