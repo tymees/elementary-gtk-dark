@@ -1,13 +1,13 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=elementary
-Comment=elementary desktop default theme
+Name=elementary-dark
+Comment=dark version of the elementary desktop  theme
 Encoding=UTF-8
 
-Name[en_US]=elementary
+Name[en_US]=elementary-dark
 
 [X-GNOME-Metatheme]
-GtkTheme=elementary
+GtkTheme=elementary-dark
 IconTheme=elementary
 CursorTheme=DMZ-Black
 ButtonLayout=close:maximize

@@ -78,6 +78,14 @@ grid:disabled {
     background-color: transparent;
 }
 
+headerbar entry,
+headerbar spinbutton,
+headerbar button,
+headerbar separator {
+    margin-top: 2px; /* same as headerbar side padding for nicer proportions */
+    margin-bottom: 2px;
+}
+
 /************
  * Tooltips *
  ************/
