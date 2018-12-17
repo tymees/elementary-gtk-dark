@@ -20,7 +20,8 @@
 @import url("brand.css");
 
 /* Default color scheme */
-@define-color base_color #3d4248;
+/*@define-color base_color #3d4248;*/
+@define-color base_color #1f2128;
 @define-color bg_color shade (@base_color, 0.96);
 @define-color bg_highlight_color shade (@bg_color, 1.4);
 @define-color border_color alpha (@BLACK_900, 0.25);
@@ -31,7 +32,8 @@
 @define-color menu_separator alpha (@BLACK_900, 0.25);
 @define-color menu_separator_shadow alpha (white, 0.05);
 @define-color placeholder_text_color shade(@text_color, 0.8);
-@define-color selected_bg_color shade (@LIME_300, 0.85);
+@define-color selected_bg_color shade (@LIME_500, 0.85);
+/*@define-color selected_bg_color shade (@LIME_300, 0.85);*/
 @define-color selected_fg_color white;
 @define-color text_color @SILVER_100;
 @define-color text_shadow_color alpha (@BLACK_900, 0.4);
